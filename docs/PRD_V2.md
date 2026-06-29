@@ -490,9 +490,9 @@ Every Week:
 │  │ │🟢 67%   │ │ │ │🟡 Wait │ │ │ │⏳ 2:30 │ │ │        │ │
 │  │ └────────┘ │ │ └────────┘ │ │ └────────┘ │ │        │ │
 │  │ ┌────────┐ │ │             │ │ ┌────────┐ │ │        │ │
-│  │ │Career  │ │ │             │ │ │ │DevSec  │ │ │        │ │
-│  │ │Ops     │ │ │             │ │ │ │Ops     │ │ │        │ │
-│  │ │🟡 45%   │ │ │             │ │ │ │⏳ 4:30 │ │ │        │ │
+│  │ │Career  │ │ │             │ │ │DevSec  │ │ │        │ │
+│  │ │Ops     │ │ │             │ │ │Ops     │ │ │        │ │
+│  │ │🟡 45%   │ │ │             │ │ │⏳ 4:30 │ │ │        │ │
 │  │ └────────┘ │ │             │ │ └────────┘ │ │        │ │
 │  └─────────────┘ └─────────────┘ └─────────────┘ └────────┘ │
 ├─────────────────────────────────────────────────────────────┤
@@ -1319,34 +1319,34 @@ kishore-hermes-mission-control/
 │   │   ├── index.css
 │   │   ├── components/
 │   │   │   ├── ui/            # shadcn/ui components
-│   │   │   ├── layout/          # Shell, sidebar, topbar
-│   │   │   ├── home/            # Home module
-│   │   │   ├── agents/          # Agents module
-│   │   │   ├── missions/        # Missions module
-│   │   │   ├── builds/          # Nightly builds module
-│   │   │   ├── repos/           # Repositories module
-│   │   │   ├── intelligence/    # Intelligence module
-│   │   │   ├── cost/            # Cost analytics module
-│   │   │   ├── infra/           # Infrastructure module
-│   │   │   ├── ai/              # AI usage module
-│   │   │   └── content/         # Content pipeline module
+│   │   │   ├── layout/        # Shell, sidebar, topbar
+│   │   │   ├── home/          # Home module
+│   │   │   ├── agents/        # Agents module
+│   │   │   ├── missions/      # Missions module
+│   │   │   ├── builds/        # Nightly builds module
+│   │   │   ├── repos/         # Repositories module
+│   │   │   ├── intelligence/  # Intelligence module
+│   │   │   ├── cost/          # Cost analytics module
+│   │   │   ├── infra/         # Infrastructure module
+│   │   │   ├── ai/            # AI usage module
+│   │   │   └── content/       # Content pipeline module
 │   │   ├── hooks/
 │   │   │   ├── useApi.ts
 │   │   │   ├── useRealtime.ts
 │   │   │   ├── useSearch.ts
 │   │   │   └── useTheme.ts
 │   │   ├── lib/
-│   │   │   ├── api.ts           # API client
-│   │   │   ├── sse.ts           # SSE connection
-│   │   │   ├── utils.ts         # Utilities
-│   │   │   └── constants.ts     # Constants
+│   │   │   ├── api.ts         # API client
+│   │   │   ├── sse.ts         # SSE connection
+│   │   │   ├── utils.ts       # Utilities
+│   │   │   └── constants.ts   # Constants
 │   │   ├── stores/
-│   │   │   ├── useStore.ts      # Zustand store
-│   │   │   └── slices/          # Store slices
+│   │   │   ├── useStore.ts    # Zustand store
+│   │   │   └── slices/        # Store slices
 │   │   ├── types/
-│   │   │   └── index.ts         # TypeScript types
+│   │   │   └── index.ts       # TypeScript types
 │   │   └── styles/
-│   │       └── tokens.css         # Design tokens
+│   │       └── tokens.css       # Design tokens
 │   └── public/
 │       └── favicon.ico
 │
